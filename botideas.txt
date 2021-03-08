@@ -1,0 +1,44 @@
+TODO LIST 
+
+✅ - if done
+
+Admin commands
+-Administrative commands to control situation
+
+[✅] kick - grabs Id and kicks user <kick id reason>
+[✅] ban - grabs Id and bans user <ban id reason>
+[] softban - unable to join voice,unable to text,put role at bottom of memberlist <softban id duration reason>
+[] warning - warns user,5warnings limit before ban <warning id reason> 
+[] chatclear - clears x ammount message of user <chatclear user amount>
+[] filter - enables profanity filter <filter enable/disable>
+[]
+
+
+Party commands
+[] watchparty - generates watchtogether link,grabs URL to invite others <watchparty youtube link>
+[] compatibility - returns % compability between 2 users <compatibility user user>
+[]
+
+Giveaway commands
+- (game name -- xxxxx-xxxxx-xxxxx)
+[] raffle - grabs all members,chooses 1 on random and selected member gets dm with the code ,
+announces winner in channel where it was called from - mods specific <raffle>
+[] spinwheel - shows gif of wheel,awaits reactions memebers selecte from reaction are picked in randomizer
+and selected person is announced and will receive code <spinwheel>
+[] memberofthemonth - most contributed in texting or voice,
+will get specific mods under the mods,gets app/game every month <memberofthemonth id>
+
+
+Utility commands
+[] changelog - display list of recent updates/changes to bot(richEmbed) <changelog>
+[] help - display's all available commands on the bot <help>
+[] invite - display invite link <invite>
+[✅] ping - display bot's ping/latency <ping>
+[]
+
+Game ideas
+
+[] Tic-Tac-Toe 
+[] Guess a flag - displays flag for member,await message with name of the flag (1 minute time limit) <guessflag>
+[] Fast fingers - displays random words,first member to match it gets message:
+congratulations you typed in the word in X seconds  <fastfingers>
