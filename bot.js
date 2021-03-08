@@ -21,10 +21,12 @@ client.login(process.env.BOT_TOKEN);
 
 client.on("message",message=>{
 if(message.author.bot) return;
+
 if(message.content.startsWith(process.env.BOT_PREFIX)){
 const [command,...args]=message.content
 .trim().substring(process.env.BOT_PREFIX.length).split(/\s+/);
 
+//handles all the client commands loaded with fs.readdirSync
 commandHandler(command,message,args);
 
 }
@@ -32,14 +34,14 @@ commandHandler(command,message,args);
 
 
 
-function commandHandler(command,message,args){
-    if(client.commands.get(command)==null) return;
-    if(client.commands.get(command).adminOnly){
+function commandHandler(commandName,message,args){
+    if(client.commands.get(commandName)==null) return;
+    if(client.commands.get(commandName).adminOnly){
     if(message.member.hasPermission("ADMINISTRATOR"))
-    client.commands.get(command).execute(message,args);
+    client.commands.get(commandName).execute(message,args);
     else message.reply("Insufficient permissions");
     } 
-    else client.commands.get(command).execute(message,args);
+    else client.commands.get(commandName).execute(message,args);
 }
 
 //message.member.hasPermission -> check perms of people
