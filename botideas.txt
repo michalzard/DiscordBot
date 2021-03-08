@@ -7,9 +7,9 @@ Admin commands
 
 [✅] kick - grabs Id and kicks user <kick id reason>
 [✅] ban - grabs Id and bans user <ban id reason>
-[] softban - unable to join voice,unable to text,put role at bottom of memberlist <softban id duration reason>
+[✅] softban - unable to join voice,unable to text,put role at bottom of memberlist <softban id duration reason>
+[✅] chatclear - clears x ammount message of user <chatclear user amount>
 [] warning - warns user,5warnings limit before ban <warning id reason> 
-[] chatclear - clears x ammount message of user <chatclear user amount>
 [] filter - enables profanity filter <filter enable/disable>
 []
 
