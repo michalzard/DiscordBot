@@ -10,14 +10,14 @@ Admin commands
 [✅] softban - unable to join voice,unable to text,put role at bottom of memberlist <softban id duration reason>
 [✅] chatclear - clears x ammount message of user <chatclear user amount>
 [] warning - warns user,5warnings limit before ban <warning id reason> 
-[] filter - enables profanity filter <filter enable/disable>
+[✅] filter - enables profanity filter <filter enable/disable>
 []
 
 
 Party commands
 [✅] watchparty - generates watchtogether link,grabs URL to invite others <watchparty youtube link>
 [✅] compatibility - returns % compability between 2 users <compatibility user user>
-[] shut - sends video to shutdown somebody <shut user>
+[✅] shut - sends video to shutdown somebody <shut user>
 
 Giveaway commands
 - (game name -- xxxxx-xxxxx-xxxxx)
