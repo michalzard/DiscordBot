@@ -15,9 +15,9 @@ Admin commands
 
 
 Party commands
-[] watchparty - generates watchtogether link,grabs URL to invite others <watchparty youtube link>
-[] compatibility - returns % compability between 2 users <compatibility user user>
-[]
+[✅] watchparty - generates watchtogether link,grabs URL to invite others <watchparty youtube link>
+[✅] compatibility - returns % compability between 2 users <compatibility user user>
+[] shut - sends video to shutdown somebody <shut user>
 
 Giveaway commands
 - (game name -- xxxxx-xxxxx-xxxxx)
@@ -32,7 +32,7 @@ will get specific mods under the mods,gets app/game every month <memberofthemont
 Utility commands
 [] changelog - display list of recent updates/changes to bot(richEmbed) <changelog>
 [] help - display's all available commands on the bot <help>
-[] invite - display invite link <invite>
+[✅] invite - display invite link <invite>
 [✅] ping - display bot's ping/latency <ping>
 []
 
