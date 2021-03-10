@@ -15,7 +15,7 @@ module.exports={
     execute(message,args){
     try{
     let formattedCmds=[];
-    for(let i=0;i<commands.size;i++){  
+    for(let i=0;i<=commands.size;i++){  
     if(commands.get(commandFiles[i].replace(".js",""))!==undefined){
     formattedCmds.push(
     {name:commands.get(commandFiles[i].replace(".js","")).name,
@@ -26,9 +26,8 @@ module.exports={
 
     const embed=new MessageEmbed()
     .setColor("GOLD").setTitle("Available Commands")
-    //.addField(names)
     for(let index in formattedCmds){
-    if(formattedCmds[index]!==undefined) embed.addField(`${formattedCmds[index].name}`,`${formattedCmds[index].desc}`)
+    if(formattedCmds[index]!=undefined) embed.addField(`${formattedCmds[index].name}`,`${formattedCmds[index].desc}`)
     }
 
     message.channel.send(embed);
