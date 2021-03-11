@@ -8,7 +8,7 @@ module.exports={
     try{
     if(args.length==0){
     const embed=new MessageEmbed()
-    .setDescription(`Latency is ${Date.now()-message.createdTimestamp}ms.`)
+    .setDescription(`Latency is ${message.createdTimestamp-Date.now()}ms.`)
     .setColor("GOLD")
         
     message.channel.send(embed);
