@@ -15,7 +15,7 @@ module.exports={
     execute(message,args){
     try{
     let formattedCmds=[];
-    for(let i=0;i<=commands.size;i++){  
+    for(let i=0;i<commands.size;i++){  
     if(commands.get(commandFiles[i].replace(".js",""))!==undefined){
     formattedCmds.push(
     {name:commands.get(commandFiles[i].replace(".js","")).name,
