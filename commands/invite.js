@@ -12,7 +12,7 @@ module.exports={
             unique:true,
         },
     ).then(invite=>{
-    message.channel.send(`www.discord.com/invite/${invite.code}`)
+    message.channel.send(`discord.com/invite/${invite.code}`)
     setTimeout(()=>message.delete(),1000);
     });
     
