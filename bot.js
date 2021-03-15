@@ -22,7 +22,7 @@ client.login(process.env.BOT_TOKEN);
 client.on("message",(message)=>{
 if(message.author.bot) return;
 
-if(client.commands.get("filter")){
+if(client.commands.get("filter") && client.commands.get("filter").isEnabled){
     client.commands.get("filter").filterInput(message);
 }
 
