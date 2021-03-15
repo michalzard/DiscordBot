@@ -7,7 +7,7 @@ module.exports={
     name:"filter",
     desc:"enables profanity filter",
     adminOnly:true,
-    isEnabled:true,
+    isEnabled:false,
     
     execute(message,args){
     try{
