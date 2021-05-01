@@ -14,7 +14,7 @@
   "dependencies": {
     "bad-words": "^3.0.4",
     "badwords-list": "^1.0.0",
-    "discord.js": "^12.5.1",
+    "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.1"
   },
